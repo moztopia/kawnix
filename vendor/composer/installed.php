@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'kawnix/framework',
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
+        'reference' => '07d6abe63df0e0e63b0caf0e5a57ecddfd237076',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+        'kawnix/framework' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'reference' => '07d6abe63df0e0e63b0caf0e5a57ecddfd237076',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
