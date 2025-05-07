@@ -3,7 +3,7 @@
         'name' => 'kawnix/framework',
         'pretty_version' => 'dev-develop',
         'version' => 'dev-develop',
-        'reference' => '07d6abe63df0e0e63b0caf0e5a57ecddfd237076',
+        'reference' => '27c030afdaf3dad63cdc194caf12c9d06ba1c8f5',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'kawnix/framework' => array(
             'pretty_version' => 'dev-develop',
             'version' => 'dev-develop',
-            'reference' => '07d6abe63df0e0e63b0caf0e5a57ecddfd237076',
+            'reference' => '27c030afdaf3dad63cdc194caf12c9d06ba1c8f5',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
