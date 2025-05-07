@@ -23,9 +23,16 @@ class Setup
             }
         }
 
+        // Ensure public directory exists
+        $publicPath = getcwd() . '/public';
+        if (!is_dir($publicPath)) {
+            mkdir($publicPath, 0777, true);
+            echo "✅ Created directory: public/\n";
+        }
+
         // Copy index.php to the user's project
         $source = __DIR__ . '/../public/index.php';
-        $destination = getcwd() . '/public/index.php';
+        $destination = $publicPath . '/index.php';
 
         if (!file_exists($destination)) {
             copy($source, $destination);
