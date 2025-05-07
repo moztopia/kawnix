@@ -24,6 +24,9 @@ class Setup
         }
 
         // Ensure public directory exists
+
+        echo "here" . getcwd();
+
         $publicPath = getcwd() . '/public';
         if (!is_dir($publicPath)) {
             mkdir($publicPath, 0777, true);
