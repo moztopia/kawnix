@@ -1,6 +1,6 @@
 <?php
 
-namespace Kawnix\Routing;
+namespace Kawnix\Core;
 
 class Route
 {

@@ -10,7 +10,6 @@ class Kernel
     {
         self::loadEnvironment();
         self::registerServices();
-        echo "✅ Kawnix framework booted successfully!\n";
     }
 
     protected static function loadEnvironment(): void
@@ -23,8 +22,9 @@ class Kernel
     protected static function registerServices(): void
     {
         self::$services = [
-            'router' => new \Kawnix\Routing\Route(),
-            // Future core services can be added here
+            'router' => new \Kawnix\Core\Route(),
+            'config' => new \Kawnix\Core\Config(),
+            // Future core services go here
         ];
     }
 

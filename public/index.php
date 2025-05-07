@@ -4,7 +4,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use Kawnix\Kernel;
-use Kawnix\Routing\Route;
+use Kawnix\Core\Route;
 
 // Boot the framework
 Kernel::boot();
