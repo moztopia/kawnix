@@ -27,7 +27,7 @@ class Setup
         $publicPath = getcwd() . '/public';
         if (!is_dir($publicPath)) {
             mkdir($publicPath, 0777, true);
-            echo "✅ Created directory: public/\n";
+            echo "✅ Created directory:: public/\n";
         }
 
         // Copy index.php to the user's project
