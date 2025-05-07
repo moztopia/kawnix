@@ -6,6 +6,8 @@ class Setup
 {
     public static function install()
     {
+
+        die();
         $directories = [
             "app/Controllers",
             "app/Models",
