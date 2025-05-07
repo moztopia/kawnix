@@ -10,5 +10,10 @@
   },
   "require": {
     "php": ">=8.0"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Kawnix\\Setup::install"
+    ]
   }
 }
