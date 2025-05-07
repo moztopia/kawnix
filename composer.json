@@ -1,7 +1,14 @@
 {
+  "name": "kawnix/framework",
+  "description": "A modular PHP framework for scalable applications.",
+  "type": "library",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Kawnix\\": "src/"
     }
+  },
+  "require": {
+    "php": ">=8.0"
   }
 }

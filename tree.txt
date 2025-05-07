@@ -1,45 +1,25 @@
 .
-├── app
-│   ├── Controllers
-│   ├── Helpers
-│   ├── Models
-│   ├── Services
-│   └── Views
-├── bootstrap
-├── config
-│   ├── cache
-│   ├── env
-│   ├── routes
-│   └── session
-├── database
-│   ├── factories
-│   └── seeders
-├── migrations
-├── public
-│   ├── css
-│   ├── images
-│   └── js
-├── resources
-│   ├── assets
-│   ├── lang
-│   └── views
-├── routes
-│   ├── api
-│   ├── console
-│   └── web
-├── storage
-│   ├── app
-│   │   ├── private
-│   │   └── public
-│   ├── cache
-│   ├── logs
-│   └── sessions
-├── tests
-│   ├── Feature
-│   └── Unit
+├── composer.json
 ├── tree.txt
 └── vendor
+    ├── autoload.php
+    ├── composer
+    │   ├── autoload_classmap.php
+    │   ├── autoload_namespaces.php
+    │   ├── autoload_psr4.php
+    │   ├── autoload_real.php
+    │   ├── autoload_static.php
+    │   ├── ClassLoader.php
+    │   ├── installed.json
+    │   ├── installed.php
+    │   ├── InstalledVersions.php
+    │   ├── LICENSE
+    │   └── platform_check.php
     └── kawnix
         └── framework
+            └── src
+                ├── Kernel.php
+                └── Routing
+                    └── Route.php
 
-42 directories, 1 file
+7 directories, 16 files
