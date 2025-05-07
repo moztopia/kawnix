@@ -1,0 +1,45 @@
+.
+├── app
+│   ├── Controllers
+│   ├── Helpers
+│   ├── Models
+│   ├── Services
+│   └── Views
+├── bootstrap
+├── config
+│   ├── cache
+│   ├── env
+│   ├── routes
+│   └── session
+├── database
+│   ├── factories
+│   └── seeders
+├── migrations
+├── public
+│   ├── css
+│   ├── images
+│   └── js
+├── resources
+│   ├── assets
+│   ├── lang
+│   └── views
+├── routes
+│   ├── api
+│   ├── console
+│   └── web
+├── storage
+│   ├── app
+│   │   ├── private
+│   │   └── public
+│   ├── cache
+│   ├── logs
+│   └── sessions
+├── tests
+│   ├── Feature
+│   └── Unit
+├── tree.txt
+└── vendor
+    └── kawnix
+        └── framework
+
+42 directories, 1 file
