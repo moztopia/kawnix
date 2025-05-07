@@ -11,18 +11,12 @@
   "require": {
     "php": ">=8.0"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": false,
+  "config": {
+    "vendor-dir": "vendor"
+  },
   "scripts": {
     "post-install-cmd": [
       "Kawnix\\Setup::install"
     ]
-  },
-  "extra": {
-    "installer-paths": {
-      "public/index.php": [
-        "type:library"
-      ]
-    }
   }
 }

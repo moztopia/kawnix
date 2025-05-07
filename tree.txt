@@ -1,5 +1,6 @@
 .
 ├── composer.json
+├── composer.lock
 ├── tree.txt
 └── vendor
     ├── autoload.php
@@ -17,9 +18,12 @@
     │   └── platform_check.php
     └── kawnix
         └── framework
+            ├── public
+            │   └── index.php
             └── src
                 ├── Kernel.php
-                └── Routing
-                    └── Route.php
+                ├── Routing
+                │   └── Route.php
+                └── Setup.php
 
-7 directories, 16 files
+8 directories, 19 files
