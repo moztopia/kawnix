@@ -9,6 +9,14 @@
     }
   },
   "require": {
-    "php": ">=8.0"
+    "php": ">=8.2"
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Kawnix\\Setup::install"
+    ]
   }
 }
