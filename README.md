@@ -6,4 +6,4 @@ Dabbling .. writing my own PHP Framework in an effort to better understand the P
 Right now you have to composer require kawnix/framework to get this running and it is clunky; to say the least.
 
 ## Next Steps
-I am going to create a compsoer create-project interface for this so it can be rapidly installed and tested.
+I am going to create a composer create-project interface for this so it can be rapidly installed and tested.
